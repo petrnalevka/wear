@@ -2,11 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.urbandroid.wear" >
 
+  <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:label="@string/app_name" >
         <activity
             android:name=".Main"
             android:label="@string/app_name" >

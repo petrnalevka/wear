@@ -17,7 +17,7 @@ public class Watch  extends InsetActivity implements MessageApi.MessageListener,
 
     @Override
     public void onReadyForContent() {
-        setContentView(wear.urbandroid.com.messagewatch.R.layout.activity_watch);
+        setContentView(R.layout.activity_watch);
 
         client = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
