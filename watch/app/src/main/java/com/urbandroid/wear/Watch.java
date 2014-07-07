@@ -1,10 +1,8 @@
-package wear.urbandroid.com.messagewatch;
+package com.urbandroid.wear;
 
 import android.os.Bundle;
 import android.support.wearable.activity.InsetActivity;
-import android.support.wearable.view.WatchViewStub;
 import android.util.Log;
-import android.widget.TextView;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
@@ -19,7 +17,7 @@ public class Watch  extends InsetActivity implements MessageApi.MessageListener,
 
     @Override
     public void onReadyForContent() {
-        setContentView(R.layout.activity_watch);
+        setContentView(wear.urbandroid.com.messagewatch.R.layout.activity_watch);
 
         client = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)

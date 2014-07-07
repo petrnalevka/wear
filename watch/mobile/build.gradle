@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 20
+    compileSdkVersion 'android-L'
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.urbandroid.com.messagewear"
-        minSdkVersion 15
-        targetSdkVersion 20
+        applicationId "com.urbandroid.wear"
+        minSdkVersion 8
+        targetSdkVersion 19
         versionCode 1
         versionName "1.0"
     }
@@ -21,6 +21,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:19.+'
     compile 'com.android.support:support-v4:20.0.0'
     compile 'com.google.android.gms:play-services:5.0.77'
 }

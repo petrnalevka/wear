@@ -1,4 +1,4 @@
-package wear.urbandroid.com.messagewear;
+package com.urbandroid.wear;
 
 import android.util.Log;
 import com.google.android.gms.wearable.DataEventBuffer;

@@ -1,4 +1,4 @@
-package wear.urbandroid.com.messagewear;
+package com.urbandroid.wear;
 
 import android.app.Activity;
 import android.os.Bundle;
